@@ -1,0 +1,18 @@
+grayscale_c
+===========
+
+Computation operator toolkit for grayscale python
+
+<format>
+C99 STANDARD
+
+<arch>
+- windows x86 (WIP)
+- windows amd_64
+- darwin amd_64 (WIP)
+- darwin arm_64 (WIP)
+- linux amd_64 (WIP)
+- plan9 amd_64 (WIP)
+
+<refer>
+- https://github.com/KennethanCeyer/grayscale
