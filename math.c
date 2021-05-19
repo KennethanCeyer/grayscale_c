@@ -2,7 +2,11 @@
 #include <Python.h>
 #include <stdio.h>
 
-#define API extern __declspec(dllexport)
+#ifdef _WIN32
+    #define API extern __declspec(dllexport)
+#else
+    #define API
+#endif
 
 API PyObject* sum(PyObject* pList) {
     PyObject* pListItem;
